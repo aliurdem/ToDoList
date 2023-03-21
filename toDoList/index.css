@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0DAABE;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.grey{
+    color: grey;
+}
+.header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mesaj{
+    width: 600px;
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 2px;
+    
+    padding: 15px;
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.ekleme-btn{
+    background-color:#2B5A60 ;
+    border-radius: 5px;
+    margin-left: 2px;
+    padding: 6px 15px 6px 15px;
+    
+}
+.ekleme-btn:hover{
+    border: 1px solid yellow;
+}
+.fa-solid{
+    color: #0DAABE;
+}
+.fa-solid:hover{
+    color: yellow;
+}
+
+.kapama {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: #2B5A60;
+    cursor: pointer;
+    
+  }
+
+ul {
+    margin-top: 25px;
+    list-style: none;
+    text-align: center;
+    
+    
+    
+    
+    
+
+}
+
+ul li{
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    text-align: left ;
+    font-size: 18px;
+    background-color: rgb(16, 200, 233);
+    padding: 12px 12px 12px 12px;
+    margin: auto;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(14, 13, 13,0.5)  ;
+    border-radius: 5px;
+    width: 600px;
+    
+
+}
+
+ul li:hover{
+    background-color: rgb(57, 206, 233);
+}
+
+ul li.isretli {
+    background: rgba(41, 223, 80, 0.8);
+    color: rgb(105, 102, 102);
+  
+}
